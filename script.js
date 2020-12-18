@@ -21,7 +21,7 @@ function calc() {
 
         alert("invalid months")
     }
-    if (yy <= 0 || yy == " " || yy > 3080) {
+    if (yy <= 0 || yy == " " || yy > 20) {
         alert("invalid year")
     }
     if (cc <= 0 || cc == " " || cc > 21) {
@@ -34,7 +34,9 @@ function calc() {
     } 
 }
 
-
+function myFunction() {
+    document.getElementById("Form").reset();
+  }
 
 
 
